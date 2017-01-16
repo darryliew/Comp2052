@@ -1,0 +1,18 @@
+1. jQuery Mobile Client-Side Web App
+-	Review the material covered, follow the links, research issues requiring clarification.
+-	Install a development web server on your personal machine.
+-	FOR SUBMISSION: create a BCIT Campuses web app to satisfy the following requirements:
+-	1. Header: 'BCIT Campuses'.
+-	2. Footer: your name.
+-	3. Dropdown with the default text: 'Select BCIT Campus'.
+-	4. Map area under the dropdown, empty by default or showing a default image of your choice.
+-	5. Text area under the map area, empty by default.
+-	6. Upon the selection of a BCIT campus in the dropdown, a map of the respective campus should be shown in the map area.
+-	7. Text under the map should then change to display the following textual information about the selected campus:
+-		1. address
+-		2. brief description
+-		3. working link to the campus's site
+-	8. The UI of the app must use jQuery Mobile platform and be touch-friendly (mobile).
+-	9. The UI (including the map) must adjust to the width of the screen when the device rotates.
+-	Test your application on a mobile device or in Firefox using 'Tools >> Web Developer >> Responsive Design View' (Ctrl+Shift+M).
+-	How to submit: archive the solution folder and submit your project to BCIT DTL Dropbox as FirstnameLastname1.zip

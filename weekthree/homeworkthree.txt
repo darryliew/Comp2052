@@ -1,0 +1,7 @@
+3. WordPress-Based Mobile App
+	a. Review the material covered, follow the links, research issues requiring clarification.
+    b. Download and set up Android Studio on your machine.
+    c. Familiarize yourself with the developer.android.com portal.
+    d. Read about the Java Programming Language.
+    
+    FOR SUBMISSION: Elaborate on the WordPress-based app started in class converting it into a usable data collection application with graphical output (Canvas 2D). Your assignment 2 may be used as the basis, however, DO NOT use jQuery mobile (use a touch-friendly CMS theme), and use MySQL database for data storage.

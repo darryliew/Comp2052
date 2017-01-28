@@ -5,11 +5,12 @@
    <title>Retrieve Module</title>
 </head>
 <body>
-    <h1>Data Retrieved</h1>
+    <h1>Male VS Female VS Aliens</h1>
 
 <?php
 $male = 0;
 $female = 0;
+$alien = 0;
 
 $file = fopen('data.json', 'r')         // open file, 'r' - read
    or exit('Data not found.');          // or give error message and exit
@@ -21,7 +22,11 @@ while(!feof($file))                     // while end of file not reached
       foreach ($data as $key => $value) // iterate through associative array
       {
          if($value == 'male') {
-            $males++;
+            $male++;
+         } else if ($value == 'female') {
+            $female++;
+         } else if ($value == 'alien') {
+            $alien++;
          }
          echo htmlspecialchars($value).' '; // show key=value pairs, escape html
       }
@@ -30,8 +35,9 @@ while(!feof($file))                     // while end of file not reached
 }
 fclose($file);    
 
-$male_angle = 120;
-$female_angle = 240;
+$male_angle = $male/($male+$female+$alien)*360;
+$female_angle = $female/($male+$female+$alien)*360;
+$alien_angle = $alien/($male+$female+$alien)*360;
                       // close file
 ?>
 
@@ -41,9 +47,12 @@ $female_angle = 240;
 <script>
    piechart(
       "piechart1", 
-      ["red", "yellow", "green"], 
-      [<?php eco $male_angle; ?>, ]
+      ["blue", "red", "green"], 
+      [<?php echo $male_angle; ?>, <?php echo $female_angle; ?>, <?php echo $alien_angle; ?>]
    );
-</script>
+</script><br>
+
+ <a href="index.html">New noob</a>
+
 </body>
 </html>

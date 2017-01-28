@@ -13,12 +13,14 @@ if($file) {                             // if file is there
       $file,                            // specified by $file
       json_encode($_POST).PHP_EOL);     // json-encode POSTed data (add end of line)
    fclose($file);                       // close file
-   echo 'Data submitted successfully.'; // inform of success
+   echo 'Data submitted successfully. <br>'; // inform of success
 }
 else {
    echo 'Error opening data file.';     // inform of failure
 }
-?>
+?><br>
+
+ <a href="retrieve.php">RESULTS</a>
 
 </body>
 </html>

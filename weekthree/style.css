@@ -1,0 +1,11 @@
+/*
+Theme Name: A01019428 Darryl Liew
+Template:   responsive
+*/
+@import url("../responsive/style.css");
+body {
+	background-color: #ADD8E6; 
+}
+h1 {
+   color: #f00;
+}

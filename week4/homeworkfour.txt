@@ -1,0 +1,8 @@
+Simple Android App
+1.Review the material covered, follow the links, research issues requiring clarification.
+FOR SUBMISSION: Using Android widgets such as EditText, Button and TextView implement a simple input-output mobile app of your choice:
+    a. Calculator
+    b. Tip Calculator
+    c. Fahrenheit-Celsius Converter
+    d. Unit Converter (Weight/Length, etc.)
+    e. Any other simple app of your choice

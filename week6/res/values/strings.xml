@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QuestionairHomework</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="question1">What is a garbage hero in this list?</string>
+    <string name="option11">Techies</string>
+    <string name="option12">Venomancer</string>
+    <string name="option13">Ogre Magi</string>
+    <string name="option14">Jakiro</string>
+    <string name="answer1">Techies</string>
+
+    <string name="question2">What is the most popular hero carry in this list?</string>
+    <string name="option21">Sniper</string>
+    <string name="option22">Spectre</string>
+    <string name="option23">Terrorblade</string>
+    <string name="option24">Alchemist</string>
+    <string name="answer2">Sniper</string>
+
+
+    <string name="question3">How many DOTA 2 Ti tournaments I have been to?</string>
+    <string name="option31">1</string>
+    <string name="option32">2</string>
+    <string name="option33">3</string>
+    <string name="option34">4+</string>
+    <string name="answer3">3</string>
+
+    <string name="title_section">Question: %1$d</string>
+    <string name="title_results">Results</string>
+    <string name="button_text">Show Results</string>
+</resources>

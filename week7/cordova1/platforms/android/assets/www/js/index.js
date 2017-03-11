@@ -29,20 +29,8 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
     },
-
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    }
 	
-	$( "select" ).change(function () {
+		$( "select" ).change(function () {
 	$( "select option:selected" ).each(function() {});
 
 		if( $( this ).val() == "downtown" ) {    
@@ -55,6 +43,18 @@ var app = {
 			$("figure").html('<img style="height:100%;width:100%" src="2.jpg" />')    
 		}
 	}).change();
+
+    // Update DOM on a Received Event
+    receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+    }
 };
 
 app.initialize();
